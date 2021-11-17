@@ -1,22 +1,16 @@
 public class Cube extends Square
 {
-	//hacim hesaplamak icin gereken yukseklik bilgisini tutan bir degisken tanimla
-      
-   
-   //kenar bilgisini parametre olarak alan  bir constructor tanimla
-   constructor
-   {
-	   //atasinin constructorunu calistir
-       
-	  //yukseklik degiskenine atama yap
-       
-	  //shapeName icersine "Cube" yaz
-	   
-   }
-
-	//hacim hesaplayıp return eden getVolume methodunu yaz
-   getVolume
-   {
-
-   }
+	public String shapeName= "Triangle";	
+	public void Triangle(int pwidth, int pheigth){
+		
+		width=pwidth;
+		heigth=pheigth;
+		
+		 
+	}	
+	
+	public int getArea(){
+		int result= width * heigth / 2;
+		return result;
+	}	
 }
