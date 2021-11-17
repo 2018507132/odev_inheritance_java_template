@@ -1,17 +1,16 @@
 public class Triangle extends Rectangle
 {   
-	//taban ve yukseklik bilgilerini parametre olarak alan bir constructor tanimla
-   constructor
-   {
-	   //atasinin constructorunu calistir
-  
-	  //shapeName icerisine "Triangle" yaz
- 
-   }
-
-	//atasinin getArea fonksiyonu sonucunu 2ye bolup return eden bir getArea fonksiyonu yaz
-   getArea
-   {
-
-   }
+	public String shapeName= "Triangle";	
+	public void Triangle(int pwidth, int pheigth){
+		
+		width=pwidth;
+		heigth=pheigth;
+		
+		 
+	}	
+	
+	public int getArea(){
+		int result= width * heigth / 2;
+		return result;
+	}
 }
