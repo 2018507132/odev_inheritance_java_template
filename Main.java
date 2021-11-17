@@ -29,24 +29,35 @@ public class Main
 		
 		github uzerinde bir kontrol mekanizmasi bu odevde yok yukaridaki ciktiyi elde etmen yeterli
 		
-		*/
-	  Rectangle myRect = new Rectangle(5,6);	  
-      System.out.println( myRect.shapeName + " area: " + myRect.getArea());
+		Rectangle myRect = new Rectangle();
+        myRect.width=5;
+		myRect.heigth=6;	  
+        System.out.println( myRect.shapeName + " area: " + myRect.getArea());
 	  
-	  Square mySquare = new Square(5);	  
-      System.out.println( mySquare.shapeName + " area: " + mySquare.getArea());
+		Square mySquare = new Square();	 
+		mySquare.width=5;
+		mySquare.heigth=5;	 
+        System.out.println( mySquare.shapeName + " area: " + mySquare.getArea());
 	  
-      Cube myCube = new Cube(5);
-      System.out.println(myCube.shapeName +" Volume: " + myCube.getVolume());
+        Cube myCube = new Cube();
+		myCube.yukseklik=5;
+        System.out.println(myCube.shapeName +" Volume: " + myCube.getVolume());
 	  
-	  Triangle myTriangle = new Triangle(5,6);	  
-      System.out.println( myTriangle.shapeName + " area: " + myTriangle.getArea());
+	    Triangle myTriangle = new Triangle();
+		myTriangle.width=5;
+		myTriangle.heigth=6;	  
+        System.out.println( myTriangle.shapeName + " area: " + myTriangle.getArea());
 	  
-	  Ellipse myEllipse = new Ellipse(3,4);	  
-      System.out.println( myEllipse.shapeName + " area: " + myEllipse.getArea());
+	    Ellipse myEllipse = new Ellipse();	
+		myEllipse.r1=3;
+		myEllipse.r2=4;		  
+        System.out.println( myEllipse.shapeName + " area: " + myEllipse.getArea());
 	    	  
-	  Circle myCircle = new Circle(3);	  
-      System.out.println( myCircle.shapeName + " area: " + myCircle.getArea());
+	    Circle myCircle = new Circle();
+		myCircle.r1=3;
+		myCircle.r2=3;	  
+        System.out.println( myCircle.shapeName + " area: " + myCircle.getArea());
+	} 
 	  
 	  
    }
