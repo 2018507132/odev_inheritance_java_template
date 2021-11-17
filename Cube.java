@@ -1,16 +1,16 @@
 public class Cube extends Square
 {
-	public String shapeName= "Triangle";	
-	public void Triangle(int pwidth, int pheigth){
+	   public int yukseklik;     	
+	public String shapeName="Cube";
+    public void Cube(int pyukseklik){
 		
-		width=pwidth;
-		heigth=pheigth;
-		
-		 
-	}	
-	
-	public int getArea(){
-		int result= width * heigth / 2;
-		return result;
-	}	
+	     yukseklik=pyukseklik;
+	     	 	    
+
+    }	  
+    public int getVolume(){
+         int hacim;
+         hacim=yukseklik*yukseklik*yukseklik;
+	     return hacim;
+    }
 }
