@@ -1,5 +1,12 @@
 class Shape
 {
-	//bu sinifi abstract sinifa donustur
-	public String shapeName = "Shape";
+	
+public String shapeName="Shape";
+	public void Shape(){
+		
+	}
+	
+	public int getArea(){
+			return 0;	     
+	}		
 }
